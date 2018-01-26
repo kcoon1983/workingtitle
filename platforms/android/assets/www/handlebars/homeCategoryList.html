@@ -1,0 +1,11 @@
+{{#each this}}
+<li class="table-view-cell media category">
+	<a class="navigate-right" href="#category/{{category_id}}">
+		<img class="media-object pull-left" src="img/{{category_image}}">
+		<div class="media-body">
+			{{{category_name_display}}}
+			<p>{{category_description}}</p>
+		</div>
+	</a>
+</li>
+{{/each}}

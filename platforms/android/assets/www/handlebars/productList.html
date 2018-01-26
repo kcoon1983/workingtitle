@@ -1,0 +1,9 @@
+{{#each this}}
+<li class="table-view-cell product">
+	<div onclick='javascript: window.location.hash = "#product/{{product_id}}"'>
+		<img src="img/{{product_image}}">
+		<div><h2>{{{product_name_display}}}</h2>{{product_description}}</div>
+		</div>
+	</div>
+</li>
+{{/each}}
